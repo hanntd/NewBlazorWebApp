@@ -1,0 +1,129 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXTheme": {
+      "version": "4.0.5",
+      "isInstalled": true
+    },
+    "Volo.Abp.TextTemplateManagement": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Chat": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.LanguageManagement": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.FileManagement": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict.Pro": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.Gdpr": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.AuditLogging.Pro": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Saas": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity.Pro": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account.Pro": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.0.4",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.0.4",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "NewBlazorWebApp.Application": {
+      "path": "src/NewBlazorWebApp.Application/NewBlazorWebApp.Application.abppkg",
+      "folder": "src"
+    },
+    "NewBlazorWebApp.Application.Tests": {
+      "path": "test/NewBlazorWebApp.Application.Tests/NewBlazorWebApp.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "NewBlazorWebApp.Domain.Shared": {
+      "path": "src/NewBlazorWebApp.Domain.Shared/NewBlazorWebApp.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "NewBlazorWebApp.Application.Contracts": {
+      "path": "src/NewBlazorWebApp.Application.Contracts/NewBlazorWebApp.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "NewBlazorWebApp.HttpApi": {
+      "path": "src/NewBlazorWebApp.HttpApi/NewBlazorWebApp.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "NewBlazorWebApp.HttpApi.Client": {
+      "path": "src/NewBlazorWebApp.HttpApi.Client/NewBlazorWebApp.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "NewBlazorWebApp.EntityFrameworkCore.Tests": {
+      "path": "test/NewBlazorWebApp.EntityFrameworkCore.Tests/NewBlazorWebApp.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "NewBlazorWebApp.EntityFrameworkCore": {
+      "path": "src/NewBlazorWebApp.EntityFrameworkCore/NewBlazorWebApp.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "NewBlazorWebApp.TestBase": {
+      "path": "test/NewBlazorWebApp.TestBase/NewBlazorWebApp.TestBase.abppkg",
+      "folder": "test"
+    },
+    "NewBlazorWebApp.Domain.Tests": {
+      "path": "test/NewBlazorWebApp.Domain.Tests/NewBlazorWebApp.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "NewBlazorWebApp.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/NewBlazorWebApp.HttpApi.Client.ConsoleTestApp/NewBlazorWebApp.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "NewBlazorWebApp.DbMigrator": {
+      "path": "src/NewBlazorWebApp.DbMigrator/NewBlazorWebApp.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "NewBlazorWebApp.Blazor": {
+      "path": "src/NewBlazorWebApp.Blazor/NewBlazorWebApp.Blazor.abppkg",
+      "folder": "src"
+    },
+    "NewBlazorWebApp.Blazor.Client": {
+      "path": "src/NewBlazorWebApp.Blazor.Client/NewBlazorWebApp.Blazor.Client.abppkg",
+      "folder": "src"
+    },
+    "NewBlazorWebApp.Domain": {
+      "path": "src/NewBlazorWebApp.Domain/NewBlazorWebApp.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}

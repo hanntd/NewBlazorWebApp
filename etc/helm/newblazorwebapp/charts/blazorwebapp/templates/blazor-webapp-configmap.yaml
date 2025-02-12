@@ -1,0 +1,27 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-{{ .Chart.Name }}-configmap
+data:
+  appsettings.json: |-
+    {
+    "App": {
+        "SelfUrl": "{{ include "newblazorwebapp.hosts.blazorwebapp" . }}"
+    },
+    "AuthServer": {
+        "Authority": "{{ include "newblazorwebapp.hosts.blazorwebapp" . }}",        "ClientId": "NewBlazorWebApp_BlazorWebApp",
+        "ResponseType": "code"
+    },
+    "RemoteServices": {
+        "Default": {
+          "BaseUrl": "{{ include "newblazorwebapp.hosts.blazorwebapp" . }}"        },
+        "AbpAccountPublic": {
+          "BaseUrl": "{{ include "newblazorwebapp.hosts.blazorwebapp" . }}"        }
+    },
+    "AbpCli": {
+        "Bundle": {
+        "Mode": "BundleAndMinify", /* Options: None, Bundle, BundleAndMinify */
+        "Name": "global"
+        }
+    }
+    }
